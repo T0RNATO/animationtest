@@ -1,5 +1,5 @@
 var y = window.location.href.split("?");
-if (y.length = 1) {
+if (y.length == 1) {
   window.location.replace("https://t0rnato.github.io/animationtest/?26,14");
 }
 y = y[1].split(",");
