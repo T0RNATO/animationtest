@@ -1,6 +1,8 @@
 var y = window.location.href.split("?");
-y.shift();
-y = y[0].split(",");
+if (y.length = 1) {
+  window.location.replace("https://t0rnato.github.io/animationtest/?26,14");
+}
+y = y[1].split(",");
 var width = y[0];
 var height = y[1];
 document.getElementsByTagName("table").width = width * 50;
