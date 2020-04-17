@@ -4,6 +4,7 @@ y = y[0].split(",");
 var width = y[0];
 var height = y[1];
 document.getElementsByTagName("table").width = width * 50;
+document.getElementsByTagName("table").height = height * 50;
 var tcont = `<tr width=${width * 50} height=50></tr>`; //putting the stuff in the table
 var tcontent = "<td width=50 height=50><button></button></td>"; //putting the stuff in the trs
 var ts = document.getElementsByTagName("tr");
