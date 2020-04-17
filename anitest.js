@@ -1,5 +1,5 @@
 var y = window.location.href.split("?");
-y = y[1].split(",");
+y = y[1].split("x");
 var width = y[0];
 var height = y[1];
 document.getElementsByTagName("table").width = width * 50;
