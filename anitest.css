@@ -12,6 +12,7 @@ button[name=b] {
   background-color: navy;
   border-width: 1px;
   border-color: white;
+  color: white
 }
 table, td, tr {
   padding: 0px;
