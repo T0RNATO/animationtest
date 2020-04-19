@@ -42,3 +42,8 @@ function vanish() {
     i = -1;
   }
 }
+function go() {
+  width = document.getElementById('W').value;
+  height = document.getElementById('H').value;
+  window.location.replace(`https://t0rnato.github.io/animationtest/?${width}x${height}`); 
+}
