@@ -11,7 +11,7 @@ else if(window.location.href.includes("?") == false){
 document.getElementsByTagName("table").width = width * 50;
 document.getElementsByTagName("table").height = height * 50;
 var tcont = `<tr width=${width * 50} height=50></tr>`; //putting the stuff in the table
-var tcontent = "<td width=50 height=50><button></button></td>"; //putting the stuff in the trs
+var tcontent = "<td width=50 height=50><button name='a'></button></td>"; //putting the stuff in the trs
 var ts = document.getElementsByTagName("tr");
 var done = [""];
 var obj, q;
