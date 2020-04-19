@@ -1,10 +1,17 @@
-button {
+button[name="a"] {
   background-color: lightblue;
-  width: 100px;
+  width: 50px;
   height: 50px;
   border-width: 1px;
   border-color: black;
   opacity: 1.0;
+}
+button[name="b"] {
+  width: 100px;
+  hieght: 50px;
+  background-color: navy;
+  border-width: 1px;
+  border-color: white;
 }
 table, td, tr {
   padding: 0px;
