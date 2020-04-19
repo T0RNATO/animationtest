@@ -1,7 +1,13 @@
-var y = window.location.href.split("?");
-y = y[1].split("x");
-var width = y[0];
-var height = y[1];
+if(window.location.href.includes("?") == true) {
+  var y = window.location.href.split("?");
+  y = y[1].split("x");
+  var width = y[0];
+  var height = y[1];  
+}
+else if(window.location.href.includes("?") == false){
+  var width = 26;
+  var height = 14;
+}
 document.getElementsByTagName("table").width = width * 50;
 document.getElementsByTagName("table").height = height * 50;
 var tcont = `<tr width=${width * 50} height=50></tr>`; //putting the stuff in the table
