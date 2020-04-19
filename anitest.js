@@ -47,3 +47,9 @@ function go() {
   height = document.getElementById('H').value;
   window.location.replace(`https://t0rnato.github.io/animationtest/?${width}x${height}`); 
 }
+function enter(event) {
+  var x = event.which || event.keyCode;
+  if(x == 13) {
+    go();
+  }
+}
